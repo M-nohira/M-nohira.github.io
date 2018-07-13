@@ -19,7 +19,7 @@
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
 
-    font-family: 'VT323';
+    font-family: 'VT323', monospace;
 }
 
 .nav-outline{
