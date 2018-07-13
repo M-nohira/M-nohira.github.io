@@ -19,14 +19,7 @@
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
 
-    font-family: "Squarea";
-    src: url("//db.onlinewebfonts.com/t/5bcf038c1c01738732063dffc34c1809.eot");
-    src: url("//db.onlinewebfonts.com/t/5bcf038c1c01738732063dffc34c1809.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/5bcf038c1c01738732063dffc34c1809.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/5bcf038c1c01738732063dffc34c1809.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/5bcf038c1c01738732063dffc34c1809.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/5bcf038c1c01738732063dffc34c1809.svg#Squarea") format("svg");
-
+    font-family: 'VT323';
 }
 
 .nav-outline{
@@ -99,8 +92,8 @@
     color: rgb(219, 219, 219);
     margin:  0%;
     position: relative;
-    top: 33%;
-    font-size: 0.9vw;
+    top: 25%;
+    font-size: 1.20vw;
     white-space: nowrap;
 }
 
