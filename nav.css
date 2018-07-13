@@ -1,0 +1,122 @@
+.nav{
+    width: 4.5%;
+    height: 100%;
+
+    position: absolute;
+    top: 0%;
+    left: 0%;
+
+    background-color: #2b2b2b;
+}
+.nav-overlay{
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 4.5%;
+    background-color: #2b2b2b;
+
+    animation-name: nav-expandout;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+    font-family: "Squarea";
+    src: url("//db.onlinewebfonts.com/t/5bcf038c1c01738732063dffc34c1809.eot");
+    src: url("//db.onlinewebfonts.com/t/5bcf038c1c01738732063dffc34c1809.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/5bcf038c1c01738732063dffc34c1809.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/5bcf038c1c01738732063dffc34c1809.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/5bcf038c1c01738732063dffc34c1809.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/5bcf038c1c01738732063dffc34c1809.svg#Squarea") format("svg");
+
+}
+
+.nav-outline{
+    width: 100%;
+    height: 100%;
+    
+
+    position: absolute;
+    top: 0%;
+    left: 0%;
+
+    
+    margin: 0%;
+    background-color: #2b2b2b;
+}
+.nav-outline:hover{
+    /*アニメーションはanimation.cssで一括管理*/
+    animation-duration: 0.25s;
+    animation-name: hover;
+    animation-fill-mode: forwards;
+}
+
+.icon{
+    width: 100%;
+    height: 9%;
+
+
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.linkicon{
+
+    width: 70%;
+    height: auto;
+
+    
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+#nav-expand{
+    top: 58%;
+}
+#nav-input:checked~#nav-overlay{
+    animation-duration: 2s;
+    animation-name: nav-expand;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    background-color: #2b2b2b;
+}
+
+.nav-content{
+    width: 100%;
+    height: 9%;
+    overflow: hidden;
+    animation-duration: 0.25s;
+    animation-name: hover;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+}
+.nav-content:hover{
+    animation-duration: 0.25s;
+    animation-name: hover;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+.nav-cont-str{
+    color: rgb(219, 219, 219);
+    margin:  0%;
+    position: relative;
+    top: 33%;
+    font-size: 0.9vw;
+    white-space: nowrap;
+}
+
+
+
+
+
+
+.expand-icon{
+
+    position: absolute;
+
+    width: 100%;
+    height: 0%;
+}
+
+.nav-notshown{
+    display: none;
+}

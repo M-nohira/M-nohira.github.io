@@ -1,0 +1,48 @@
+div.loadwindow
+{
+
+    width: 75%;
+    height: 30px;
+    margin: 0%;
+    position: relative;
+    top: 45%;
+    left: 11.5%;
+
+    animation-duration: 5s;
+    animation-name: LoadBar_dismiss;
+    animation-fill-mode: forwards;
+
+    border: solid 5px #949494;
+    border-radius: 5px;
+
+    box-shadow: 5px 5px #444444;
+
+}
+
+div.loadbar{
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+    position: absolute;
+    top: 0%;
+    animation-duration: 2.5s;
+    animation-name: LoadBar_Progress;
+    background-color:#2d47d8;
+}
+
+div.loading{
+    
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    margin: 0%;
+
+    background-repeat: no-repeat;
+    background-size:contain;
+
+    background-image:url(texture/Loading.svg);
+    
+    width: 90%;
+    height: 85%;
+}
