@@ -93,7 +93,7 @@
     margin:  0%;
     position: relative;
     top: 25%;
-    font-size: 1.20vw;
+    font-size: 1.20vmax;
     white-space: nowrap;
 }
 
