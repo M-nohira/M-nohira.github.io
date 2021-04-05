@@ -8,7 +8,8 @@ div.loadwindow
     top: 45%;
     left: 11.5%;
 
-    animation-duration: 5s;
+    animation-delay: 2.5s;
+    animation-duration: 1s;
     animation-name: LoadBar_dismiss;
     animation-fill-mode: forwards;
 

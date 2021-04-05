@@ -109,3 +109,34 @@ div.side:hover{
     animation-name: sideFade;
     animation-fill-mode: forwards;
 }
+
+div.side-cont{
+    width: 50%;
+    height: 100%;
+
+    margin: auto;
+    margin-top: auto;
+
+    position: absolute;
+    left: 50%;
+
+    opacity: 1;
+    background-color: rgb(233, 233, 233);
+
+}
+
+div.wip{
+    width: auto;
+    height: auto;
+    
+    margin: auto;
+    margin-top: 50%;
+    text-align: center;
+    vertical-align: middle;
+    transform-origin: 50% 50%;
+    transform: rotate(45deg);
+
+    font-family: 'VT323', monospace;
+    font-size:50pt;
+
+}

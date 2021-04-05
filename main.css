@@ -46,7 +46,8 @@ div.outbox{
     background-color: rgb(175, 175, 175);
 
     overflow: hidden;
-    animation-duration: 8s;
+    animation-delay: 3s;
+    animation-duration: 1s;
     animation-name: LoadBox;
     animation-fill-mode:forwards;
 
